@@ -1,0 +1,5 @@
+@import 'animate.css';
+/* Import animate.css before Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,11 +1,20 @@
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import React from 'react';
+import Intro from './components/Intro';
+import Portfolio from './components/Portfolio';
+import TechStack from './components/TechStack';
+import ContactInfo from './components/ContactInfo';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
-        <div>
-            React App With Vite
-        </div>
+        <>
+            <Intro />
+            <Portfolio />
+            <TechStack />
+            <ContactInfo />
+            <Footer />
+        </>
     );
 };
 
